@@ -46,6 +46,9 @@ setInterval(actualizarReloj, 1000);
 actualizarReloj();
 
 
+
+
+
 let display = document.getElementById('display');
 
 function agregarValor(valor) {
@@ -62,4 +65,8 @@ function calcularResultado() {
     } catch (e) {
         display.value = 'Error';
     }
+
 }
+
+}
+
