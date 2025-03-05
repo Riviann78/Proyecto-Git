@@ -54,6 +54,32 @@
         
         <h2>Reloj Digital</h2>
         <h1 id="reloj"></h1>
+
+        
+        <h2>Calculadora</h2>
+        <div id="calculadora">
+            <input type="text" id="display" disabled>
+            <br>
+            <button class="btn" onclick="agregarValor('1')">1</button>
+            <button class="btn" onclick="agregarValor('2')">2</button>
+            <button class="btn" onclick="agregarValor('3')">3</button>
+            <button class="btn" onclick="agregarValor('+')">+</button>
+            <br>
+            <button class="btn" onclick="agregarValor('4')">4</button>
+            <button class="btn" onclick="agregarValor('5')">5</button>
+            <button class="btn" onclick="agregarValor('6')">6</button>
+            <button class="btn" onclick="agregarValor('-')">-</button>
+            <br>
+            <button class="btn" onclick="agregarValor('7')">7</button>
+            <button class="btn" onclick="agregarValor('8')">8</button>
+            <button class="btn" onclick="agregarValor('9')">9</button>
+            <button class="btn" onclick="agregarValor('')"></button>
+            <br>
+            <button class="btn" onclick="agregarValor('0')">0</button>
+            <button class="btn" onclick="calcularResultado()">=</button>
+            <button class="btn" onclick="limpiar()">C</button>
+            <button class="btn" onclick="agregarValor('/')">/</button>
+        </div>
      
         </aside>
     <footer id="contacto">
