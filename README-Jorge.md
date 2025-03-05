@@ -1,4 +1,5 @@
-1.	Configuración inicial del proyecto (Responsable líder del proyecto).
+Jorge Cascón Vicente
+ 1. Configuración inicial del proyecto (Responsable líder del proyecto).
   a.	Crear repositorio local con: 
   git init
   b.	Crear los archivos y carpetas con: 
