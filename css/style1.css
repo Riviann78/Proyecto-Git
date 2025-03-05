@@ -86,6 +86,8 @@ section img {
     margin-top: 10px;
 }
 
+
+
 /* Estilos del aside */
 aside {
     width: 80%;
@@ -130,12 +132,21 @@ aside #resultado {
     font-size: 1.2rem;
 }
 
-/* Estilos del reloj */
+/* Estilos para el reloj digital */
 #reloj {
-    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
     font-weight: bold;
-    margin-top: 10px;
+    color: #2c3e50;
+    text-align: center;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Estilos generales para la calculadora */
 #calculadora {
