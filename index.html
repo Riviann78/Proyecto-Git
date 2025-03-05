@@ -1,4 +1,5 @@
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <h1>¡Bienvenidos al Proyecto Colaborativo!</h1>
@@ -21,14 +23,16 @@
     <main>
         <section id="introduccion">
             <h2>Introducción</h2>
-            <p>Este es un proyecto colaborativo de desarrollo web utilizando <strong>Git</strong> y <strong>GitHub</strong>. Aprenderemos a trabajar en equipo gestionando versiones de código.</p>
+            <p>Este es un proyecto colaborativo de desarrollo web utilizando <strong>Git</strong> y
+                <strong>GitHub</strong>. Aprenderemos a trabajar en equipo gestionando versiones de código.</p>
         </section>
-        
+
         <section id="objetivo">
             <h2>Objetivo del Proyecto</h2>
-            <p>El objetivo principal es comprender el flujo de trabajo en <strong>Git</strong> y <strong>GitHub</strong>, aplicando buenas prácticas de desarrollo colaborativo.</p>
+            <p>El objetivo principal es comprender el flujo de trabajo en <strong>Git</strong> y
+                <strong>GitHub</strong>, aplicando buenas prácticas de desarrollo colaborativo.</p>
         </section>
-        
+
         <section id="recursos">
             <h2>Recursos Utilizados</h2>
             <ul>
@@ -51,6 +55,36 @@
         <button id="botonAdivinar">Adivinar</button>
 
         <p id="resultado"></p>
+
+        <h2>Reloj Digital</h2>
+        <h1 id="reloj"></h1>
+
+
+        <h2>Calculadora</h2>
+        <div id="calculadora">
+            <input type="text" id="display" disabled>
+            <br>
+            <button class="btn" onclick="agregarValor('1')">1</button>
+            <button class="btn" onclick="agregarValor('2')">2</button>
+            <button class="btn" onclick="agregarValor('3')">3</button>
+            <button class="btn" onclick="agregarValor('+')">+</button>
+            <br>
+            <button class="btn" onclick="agregarValor('4')">4</button>
+            <button class="btn" onclick="agregarValor('5')">5</button>
+            <button class="btn" onclick="agregarValor('6')">6</button>
+            <button class="btn" onclick="agregarValor('-')">-</button>
+            <br>
+            <button class="btn" onclick="agregarValor('7')">7</button>
+            <button class="btn" onclick="agregarValor('8')">8</button>
+            <button class="btn" onclick="agregarValor('9')">9</button>
+            <button class="btn" onclick="agregarValor('*')">*</button>
+            <br>
+            <button class="btn" onclick="agregarValor('0')">0</button>
+            <button class="btn" onclick="calcularResultado()">=</button>
+            <button class="btn" onclick="limpiar()">C</button>
+            <button class="btn" onclick="agregarValor('/')">/</button>
+        </div>
+
     </aside>
     <footer id="contacto">
         <p>&copy; 2024 Proyecto Colaborativo - Todos los derechos reservados</p>
@@ -58,4 +92,5 @@
     </footer>
     <script src="js/script.js"></script>
 </body>
+
 </html>

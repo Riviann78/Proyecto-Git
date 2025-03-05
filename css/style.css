@@ -103,4 +103,78 @@ footer {
     margin-top: auto;
 }
 
+aside {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de cambio de color */
+#btnCambio {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#btnCambio:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo de la sección de adivina el número */
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#inputNumero {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#botonAdivinar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botonAdivinar:hover {
+    background-color: #218838;
+}
+
+/* Estilo para el resultado */
+#resultado {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ff5722;
+}
+
+/* Estilo del reloj digital */
+#reloj {
+    font-size: 2em;
+    font-weight: bold;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
 
