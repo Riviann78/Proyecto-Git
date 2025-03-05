@@ -44,3 +44,22 @@ function actualizarReloj() {
 setInterval(actualizarReloj, 1000);
 
 actualizarReloj();
+
+
+let display = document.getElementById('display');
+
+function agregarValor(valor) {
+    display.value += valor;
+}
+
+function limpiar() {
+    display.value = '';
+}
+
+function calcularResultado() {
+    try {
+        display.value = eval(display.value);
+    } catch (e) {
+        display.value = 'Error';
+    }
+}
